@@ -1,17 +1,13 @@
+package src.main.java;
+
+import src.main.java.GameProgress;
+
 import java.io.*;
-import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.List;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipInputStream;
-import java.util.zip.ZipOutputStream;
 
 public class Main {
     public static void main(String[] args) {
-        GameProgress game1 = new GameProgress(100, 10, 12, 1.1);
-        GameProgress game2 = new GameProgress(111, 1110, 111, 11.11);
-        GameProgress game3 = new GameProgress(222, 1220, 1221, 12.21);
-
 
         File pathToZip = new File("Games/savegames/zip.zip");
         File pathToSave = new File("Games/savegames/");
